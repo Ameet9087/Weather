@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-image: linear-gradient(to right, rgb(12, 213, 248), rgb(82, 82, 214), rgb(5, 5, 248));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-app {
+    height: 240px;
+    width: 400px;
+    background-image: url(CtmQ.gif);
+    background-size: auto;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 20px;
+    box-shadow: 0px 10px 10px 9px;
+
+}
+
+#cityname {
+    border: none;
+    outline: none;
+    border-bottom: 3px solid black;
+    border-right: 4px solid rgb(15, 14, 14);
+}
+
+button {
+    border-radius: 20px;
+    height: 25px;
+    width: 61px;
+    background-image: linear-gradient(to right, yellow, red, yellow);
+
+}
+
+h2 {
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(32, 27, 27), yellow, rgb(31, 24, 24));
+}
