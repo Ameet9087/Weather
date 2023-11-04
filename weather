@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8" />
+        <title>weather</title>
+        <link rel="stylesheet" href="weather.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="weather-app">
+                <h2>WEATHER FORECAST</h2>
+                <br>
+                <div>
+                    <label for="city">
+                        <b> Enter City : </b>
+                    </label>
+                    <input type="text" id="cityname" required>
+                    <button type="button" onclick="fetchData()"><b>GET</b> </button>
+                </div>
+                <BR>
+                <div>
+                    <span><b>CITY :</b><span id="city"></span></span><br>
+                    <span><b>Description :</b><span id="desc"></span></span><br>
+                    <span><b>Wind Speed :</b><span id="windspeed"></span>m/hr</span><br>
+                    <span><b>Temparture :</b><span id="temp"></span>deg/cel</span><br>
+                    <span><b>Humidity :</b><span id="hum"></span>deg/cel</span><br>
+                </div>
+            </div>
+        </div>
+        <script src="weather.js"></script>
+    </body>
+
+</html>
